@@ -1,11 +1,11 @@
 var Deferred = require('Deferred'),
 	EventEmitter = require('events').EventEmitter;
 
-function deferredEventEmitter(){
+function DeferredEventEmitter(){
 	this._doneEmitter = new EventEmitter();
 }
 
-module.exports = deferredEventEmitter;
+module.exports = DeferredEventEmitter;
 
 DeferredEventEmitter.prototype = new EventEmitter();
 
