@@ -1,0 +1,18 @@
+{
+  "author": "Egor Dydykin <egor.a.dydykin@catfamily.ru>",
+  "name": "deferredEventEmitter",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/madimp/deferredEventEmitter.git"
+  },
+  "main": "deferredEventEmitter.js",
+  "dependencies": {
+    "Deferred": "~0.1.1"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
