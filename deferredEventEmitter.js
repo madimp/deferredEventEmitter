@@ -13,6 +13,10 @@ DeferredEventEmitter.prototype.done = function(event, listener){
 	this._doneEmitter.on(event, listener);
 };
 
+DeferredEventEmitter.prototype.removeDoneListener = function(event, listener){
+	this._doneEmitter.removeListener(event, listener);
+};
+
 DeferredEventEmitter.prototype.emit = function(event, args){
 	var _this = this;
 
